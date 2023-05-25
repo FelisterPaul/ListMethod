@@ -6,3 +6,7 @@ names = ["Aminah", "Aisha", "Cynthia", "Mwende",]
 names[0] = "Amina"
 print(names[0:3])
 print(names)
+#insert a value at the beginning of a list.
+numbers = [1, 2, 3, 4, 5]
+numbers.insert(0, -1)
+print(numbers)
