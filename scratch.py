@@ -10,3 +10,11 @@ print(names)
 numbers = [1, 2, 3, 4, 5]
 numbers.insert(0, -1)
 print(numbers)
+#remove a value on a list
+numbers = [1, 2, 3, 4, 5]
+numbers.remove(4)
+print(numbers)
+#clear values in a list
+numbers =[1, 2, 3, 4, 5]
+numbers.clear()
+print(numbers)
